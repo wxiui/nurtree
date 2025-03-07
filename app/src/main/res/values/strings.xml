@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">nurtree</string>
+    <string name="title_home">Home</string>
+    <string name="title_learn">Learn</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="phone_hint" translatable="false">phone</string>
+    <string name="code_hint" translatable="false">code</string>
+    <string name="child_account_hint" translatable="false">child_account</string>
+    <string name="child_password_hint" translatable="false">child_password</string>
+
+    <string name="button_login_name" translatable="false">login</string>
+    <string name="button_register_name" translatable="false">register</string>
+    <string name="button_reset_password_name" translatable="false">reset password</string>
+    <string name="button_back_name" translatable="false">back</string>
+
+    <string name="no_login">Not Logged In</string>
+    <string name="questionAnswer">Anwser：</string>
+    <string name="questionSelectedAnswer">You Selected：</string>
+    <string name="questionNote">Notice：</string>
+
+    <string name="device_list_name">Equipments</string>
+
+    <string name="app_usage_title">Today’s Records</string>
+    <string name="scan_qrcode_tip">QR Code</string>
+    <string name="qrcode_login_tip">QR Login</string>
+
+    <string name="device_admin_description">Administrator</string>
+
+    <string name="exam_name">Test Name:</string>
+
+    <string name="exam_ques_num">Number of Test:</string>
+
+    <string name="exam_tip">Test for Practice, Real Test</string>
+
+    <string name="bonus_minutes">Rewards:</string>
+
+    <string name="submit_text">Submit</string>
+    <string name="exam_setting_title">Set up the Test</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_learn">Learn</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

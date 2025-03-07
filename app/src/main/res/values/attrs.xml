@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleCountdownView">
+        <attr name="backgroundColor" format="color" /> <!-- 背景圆环颜色 -->
+        <attr name="progressColor" format="color" /> <!-- 进度圆环颜色 -->
+        <attr name="circleWidth" format="dimension" /> <!-- 圆环宽度 -->
+        <attr name="countdownDuration" format="integer" /> <!-- 倒计时时间（毫秒） -->
+        <attr name="textColor" format="color" /> <!-- 文字颜色 -->
+        <attr name="textSize" format="dimension" /> <!-- 文字大小 -->
+    </declare-styleable>
+</resources>

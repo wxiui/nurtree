@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green400"
+    android:id="@+id/root_layout"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"> <!-- 初始透明 -->
+
+        <!--使用线性布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <!--Logo-->
+            <ImageView
+                android:id="@+id/LogoImage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                tools:ignore="MissingConstraints" />
+
+            <com.csstj.nurtree.view.CircleCountdownView
+                android:id="@+id/circleCountdownView"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="60dp"
+                app:backgroundColor="@android:color/white"
+                app:circleWidth="10dp"
+                app:countdownDuration="5000"
+                app:progressColor="@android:color/holo_green_light"
+                app:textColor="@android:color/black"
+                android:layout_gravity="center"
+                app:textSize="48sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/rounded_corner">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/exam_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

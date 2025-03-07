@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#1890ff</color>
+    <color name="gray">#F4F4F4</color>
+    <color name="green">#52C41A</color>
+    <color name="red">#FF4D4F</color>
+
+    <color name="normal_color">#FFFFFF</color> <!-- 白色 -->
+    <color name="pressed_color">#CCCCCC</color> <!-- 灰色，比白色深 -->
+
+    <color name="green400">#006400</color>
+
+    <color name="blue_60">#00BFFF</color>
+
+    <!--    标题：使用纯黑（#000000）或深黑（#212121），突出重要性。
+            正文：使用深黑（#212121）或浅黑（#424242），保证可读性。
+            辅助文本：使用深灰（#757575）或中灰（#9E9E9E），降低视觉权重。
+            提示信息：使用中灰（#9E9E9E）或浅灰（#BDBDBD），避免喧宾夺主。
+            禁用状态：使用浅灰（#BDBDBD），明确表示不可操作。-->
+
+<!--    纯黑	#000000	最深的黑色，适合高对比度场景。-->
+    <color name="black_100">#000000</color>
+<!--    深黑	#212121	稍微柔和的黑色，适合正文。-->
+    <color name="black_80">#212121</color>
+<!--    浅黑	#424242	较浅的黑色，适合次要文本。-->
+    <color name="black_40">#212121</color>
+
+<!--    深灰	#757575	较深的灰色，适合辅助文本。-->
+    <color name="gray_80">#757575</color>
+<!--    中灰	#9E9E9E	中等灰色，适合提示信息。-->
+    <color name="gray_60">#9E9E9E</color>
+<!--    浅灰	#BDBDBD	较浅的灰色，适合禁用状态文本。-->
+    <color name="gray_40">#BDBDBD</color>
+<!--    超浅灰	#E0E0E0	非常浅的灰色，适合背景分隔线。-->
+    <color name="gray_20">#E0E0E0</color>
+    <!--    超浅灰	#E0E0E0	非常浅的灰色，适合背景分隔线。-->
+    <color name="gray_00">#F0F0F0</color>
+</resources>

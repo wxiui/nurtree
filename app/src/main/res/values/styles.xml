@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RadioButtonStyle">
+        <item name="android:background">@drawable/radio_button_bg</item> <!-- 背景 -->
+        <item name="android:textColor">@color/radio_button_text_color</item> <!-- 文字颜色 -->
+        <item name="android:gravity">center_vertical</item> <!-- 文字上下居中 -->
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:padding">2dp</item> <!-- 内边距 -->
+        <item name="android:button">@null</item> <!-- 隐藏默认的圆形选择框 -->
+    </style>
+</resources>
