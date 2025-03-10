@@ -2,14 +2,15 @@ package com.csstj.nurtree.common.consts;
 
 public class AppConst {
 
-    public static boolean ISADMIN = false;
+    public static boolean ISADMIN = true;
 
     /**
      * 主机地址
      * public static String HOST = "http://114.116.110.9/prod-api";
      * public static String HOST = "http://172.16.4.192:8081";
+     * public static String HOST = "http://172.16.4.192:8081";
      */
-    public static String HOST = "http://172.16.4.192:8081";
+    public static String HOST = "http://114.116.110.9/prod-api";
     /**
      * 登录
      */
